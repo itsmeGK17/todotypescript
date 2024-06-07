@@ -1,0 +1,103 @@
+.form-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    outline: none;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.form_input:hover {
+    box-shadow: 0px 0px 10px 1000px rgba(4, 73, 158, 0.4);
+    transition: all 1s;
+}
+
+.form_btn:active {
+    transform: scale(.8);
+}
+
+li {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: black;
+    list-style: none;
+    background-color: lightblue;
+    padding-left: 15px;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+
+
+}
+
+.form_add {
+    margin-left: 10px;
+}
+
+.form_add:active {
+    transform: scale(.8);
+}
+
+.form_input {
+    background-color: rgba(4, 73, 158, 0.4);
+    border-radius: 8px;
+    background: none;
+}
+
+.form_input>input {
+    border-radius: 15px;
+
+}
+
+/* .single_form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5%;
+    border-radius: 5px;
+    padding: 15px;
+    margin: auto;
+
+}
+
+.single_todo {
+    flex: 1;
+    padding: 5px;
+    border: none;
+    font-size: 20px;
+} */
+
+.icon_btn {
+    display: flex;
+}
+
+.icon {
+
+    cursor: pointer;
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+.icon:active {
+    transform: scale(.5);
+}
+
+
+.form_btn:active {
+    transform: scale(.8);
+}
+
+.form_btn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.btn_icon {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end
+}
